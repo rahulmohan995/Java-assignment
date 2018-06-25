@@ -23,10 +23,10 @@ public class Gmaillogin {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://accounts.google.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("identifierId")).sendKeys("sample96rajan");
+		driver.findElement(By.id("identifierId")).sendKeys("email");
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
 		driver.manage().timeouts().implicitlyWait(4,TimeUnit.SECONDS);
-		driver.findElement(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")).sendKeys("Sample987*#");
+		driver.findElement(By.cssSelector("#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input")).sendKeys("password");
 		driver.findElement(By.cssSelector("#passwordNext > content")).click();
 		driver.findElement(By.xpath("//a[@class='WaidBe']")).click();
 		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
