@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hris.testNG.AppTest">
+        <methods>
+          <include name="testDifferentCaseUser"/>
+          <include name="testInvalidUsername"/>
+          <include name="testOpenHris"/>
+          <include name="QuitBrowser"/>
+          <include name="testInvalidPassword"/>
+          <include name="testUpperCaseUsername"/>
+          <include name="testValidLogin"/>
+          <include name="testBlankLogin"/>
+        </methods>
+      </class> <!-- com.hris.testNG.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
